@@ -1,0 +1,9 @@
+# filepath: c:\Users\DJATO\YOLO\data.yaml
+path: C:\Users\DJATO\Desktop\drone-detection-new.v5-new-train.yolov8  # dataset root dir
+train: train/images  # train images (relative to 'path')
+val: valid/images  # val images (relative to 'path')
+test: test/images  # test images (optional)
+
+# Classes
+names:
+  0: drone
